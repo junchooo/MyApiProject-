@@ -1,0 +1,106 @@
+2025-06-02 22:03:55,117 [1] INFO Program - Application Starting Up...
+2025-06-02 22:04:10,228 [8] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-02 22:06:58,984 [1] INFO Program - Application Starting Up...
+2025-06-02 22:07:09,896 [9] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Logging sanitized request body.
+2025-06-02 22:07:09,985 [9] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body: {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"[MASKED_PASSWORD]","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-02 22:07:10,085 [9] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 2:07:10 PM, Allowed Skew: 00:05:00.
+2025-06-02 22:07:10,113 [9] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-02 23:16:54,713 [1] INFO Program - Application Starting Up...
+2025-06-02 23:17:15,864 [11] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Logging sanitized request body.
+2025-06-02 23:17:15,881 [11] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body: {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"[MASKED_PASSWORD]","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-02 23:17:15,933 [11] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 3:17:15 PM, Allowed Skew: 00:05:00.
+2025-06-02 23:17:15,950 [11] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-02 23:17:34,083 [10] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 02:10:49,578 [1] INFO Program - Application Starting Up...
+2025-06-03 02:10:54,546 [9] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 02:10:54,557 [9] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 02:11:11,033 [11] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 02:11:11,169 [11] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Logging sanitized request body.
+2025-06-03 02:11:11,193 [11] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body: {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"[MASKED_PASSWORD]","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-03 02:11:11,282 [11] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 6:11:11 PM, Allowed Skew: 00:05:00.
+2025-06-03 02:11:11,294 [11] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-03 02:51:08,916 [1] INFO Program - Application Starting Up...
+2025-06-03 02:54:45,283 [1] INFO Program - Application Starting Up...
+2025-06-03 02:54:51,602 [10] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 02:54:51,747 [10] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 02:54:51,797 [10] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs_GznMOxmiTcw5K3P8XKLYl3Fh9a37YK8U6kgWQ9dEnlvZT2voWCNHujlbMiY3hXZLDgNkeb4aCD43M4bRox5520rBWdP4hczU9puXCL82IKOQ-V6czbubMHJg85vUPOGE","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-03 02:54:51,920 [10] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 6:54:51 PM, Allowed Skew: 00:05:00.
+2025-06-03 02:54:51,963 [10] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-03 03:33:43,244 [1] INFO Program - Application Starting Up...
+2025-06-03 03:33:55,751 [9] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:33:55,776 [9] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:39:56,041 [1] INFO Program - Application Starting Up...
+2025-06-03 03:40:12,579 [8] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:40:12,640 [8] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:45:22,979 [1] INFO Program - Application Starting Up...
+2025-06-03 03:45:54,043 [3] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:45:54,053 [3] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:50:59,507 [11] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:50:59,666 [11] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:50:59,698 [11] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs_j_J_yJH2I4Iyqsjyma2DzxQYSFgQD6JQpsffaEIsFPpU6tL8adgEMgI1g61y4WAebQ8O3NQdyo0qTDxmTS-t2cYbzr42znWAWnsdg8_gaaA3MZiLagRzV5jynhxpx6wY","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-03 03:50:59,780 [11] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 7:50:59 PM, Allowed Skew: 00:05:00.
+2025-06-03 03:50:59,791 [11] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-03 03:51:20,950 [19] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:51:20,951 [19] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:51:52,617 [13] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:51:52,621 [13] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:51:52,623 [13] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs9Y9WCwVkrPS3GYK4kFVA6bC19WirZslIcnbRCD3OrIHlrhJODSt5nBENL6tdZwbFfKwdOV5yFa3QajzEsd2fnffoMwWiUNO7GWxD6yg0Cm0iDZXUuiaPoFrsChbJVOaK4","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T05:39:36.0000000Z"}
+2025-06-03 03:51:52,625 [13] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Timestamp Expired. Request UTC: 6/2/2025 5:39:36 AM, Server UTC: 6/2/2025 7:51:52 PM, Allowed Skew: 00:05:00.
+2025-06-03 03:51:52,629 [13] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Expired."}
+2025-06-03 03:54:34,920 [1] INFO Program - Application Starting Up...
+2025-06-03 03:54:42,150 [10] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:54:42,161 [10] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:55:44,575 [13] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:55:44,709 [13] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:55:44,745 [13] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs-HGXDteHV6ztV8MRrGpK07tF_V61tEqIMBlsLHzqcgTLGVo2NIHCsluEYOzFz3EAh_n98shkLO-FFtNrIfypeQDOUZUqbQYfOteHCwUIkRdq5QV9UBYUyDBJZRrAiLOJw","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T19:54:42.0000000Z"}
+2025-06-03 03:55:44,851 [13] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature called for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'
+2025-06-03 03:55:44,854 [13] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - String to Sign: '20250602195442FAKEGOOGLEFG-00001120500RkFLRVBBU1NXT1JEMTIzNA=='
+2025-06-03 03:55:44,879 [13] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - Lowercase Hex Hash: '1a5864886f5f68627e5f1df909ca36dbc87ccc18708a6aac076e114cfd48d72b'
+2025-06-03 03:55:44,886 [13] INFO TransactionAPI.Controllers.TransactionController - IsValidSignature - Calculated Signature (Base64 of Hex Hash): MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== | Received Sig: NWY5NTIzNGExYTFhMTQ4Yzg2MzYxODRmMmZkYzU0YmM5M2JkNTJkYzRmYWM0MjgxMmI5NWRmNDk4ODllMTI2Mg==
+2025-06-03 03:55:44,893 [13] WARN TransactionAPI.Controllers.TransactionController - IsValidSignature - Signature MISMATCH.
+2025-06-03 03:55:44,896 [13] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Signature validation failed for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Received Sig: 'NWY5NTIzNGExYTFhMTQ4Yzg2MzYxODRmMmZkYzU0YmM5M2JkNTJkYzRmYWM0MjgxMmI5NWRmNDk4ODllMTI2Mg=='
+2025-06-03 03:55:44,909 [13] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Access Denied!"}
+2025-06-03 03:58:27,084 [1] INFO Program - Application Starting Up...
+2025-06-03 03:58:30,904 [11] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:58:31,082 [11] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:58:31,135 [11] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs8yp-uReWpFgLwZbpzQA2yTHb33aUXo0qJLs-iOd8sgyQxvcMJSkdjo3YxTH1qQvHd4_MBley2FwF72QiuIkDQ-qysl0FV4mH8sCBFTzyvh2YKjvXQdiH_5mMxgEg4RBlk","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T19:54:42.0000000Z"}
+2025-06-03 03:58:31,194 [11] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature called for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'
+2025-06-03 03:58:31,218 [11] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - String to Sign: '20250602195442FAKEGOOGLEFG-00001120500RkFLRVBBU1NXT1JEMTIzNA=='
+2025-06-03 03:58:31,253 [11] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - Lowercase Hex Hash: '1a5864886f5f68627e5f1df909ca36dbc87ccc18708a6aac076e114cfd48d72b'
+2025-06-03 03:58:31,254 [11] INFO TransactionAPI.Controllers.TransactionController - IsValidSignature - Calculated Signature (Base64 of Hex Hash): MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== | Received Sig: NWY5NTIzNGExYTFhMTQ4Yzg2MzYxODRmMmZkYzU0YmM5M2JkNTJkYzRmYWM0MjgxMmI5NWRmNDk4ODllMTI2Mg==
+2025-06-03 03:58:31,262 [11] WARN TransactionAPI.Controllers.TransactionController - IsValidSignature - Signature MISMATCH.
+2025-06-03 03:58:31,265 [11] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Signature validation failed for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Received Sig: 'NWY5NTIzNGExYTFhMTQ4Yzg2MzYxODRmMmZkYzU0YmM5M2JkNTJkYzRmYWM0MjgxMmI5NWRmNDk4ODllMTI2Mg=='
+2025-06-03 03:58:31,362 [11] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Access Denied!"}
+2025-06-03 03:58:44,656 [10] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:58:44,662 [10] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:58:44,669 [10] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs-vJexwyJ0F9BJEseVgcPtdBfhOOYPPGbilT4_C-TrlzaXXHO54GhMAhw2rGLhbtTHSC5thVi-Jwxpz2Lr4-QnYTGX066oiEBHs6ZQCne80I9p6kihO165LL7A1KyuMLE4","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T19:54:42.0000000Z"}
+2025-06-03 03:58:44,670 [10] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature called for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'
+2025-06-03 03:58:44,671 [10] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - String to Sign: '20250602195442FAKEGOOGLEFG-00001120500RkFLRVBBU1NXT1JEMTIzNA=='
+2025-06-03 03:58:44,673 [10] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - Lowercase Hex Hash: '1a5864886f5f68627e5f1df909ca36dbc87ccc18708a6aac076e114cfd48d72b'
+2025-06-03 03:58:44,674 [10] INFO TransactionAPI.Controllers.TransactionController - IsValidSignature - Calculated Signature (Base64 of Hex Hash): MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== | Received Sig: MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== 
+2025-06-03 03:58:44,683 [10] WARN TransactionAPI.Controllers.TransactionController - IsValidSignature - Signature MISMATCH.
+2025-06-03 03:58:44,712 [10] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Signature validation failed for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Received Sig: 'MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== '
+2025-06-03 03:58:44,730 [10] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Access Denied!"}
+2025-06-03 03:59:02,008 [10] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:59:02,018 [10] INFO TransactionAPI.Controllers.TransactionController - Ping endpoint was HIT.
+2025-06-03 03:59:31,013 [14] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:59:31,016 [14] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:59:31,018 [14] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs_mFYXCtpvR1KdLm2tviE8HArbZoV4mLWncVCvlzXwMpccb8ig-sbd6cxhxpK53Mb7_jmQYZLLeRdTuvvRMLTXXVH2U5LvNIzMZY7-CAWoNja2GDv7v8UpmekO0_tsDzAE","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T19:59:02.0704515Z"}
+2025-06-03 03:59:31,019 [14] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature called for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'
+2025-06-03 03:59:31,020 [14] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - String to Sign: '20250602195902FAKEGOOGLEFG-00001120500RkFLRVBBU1NXT1JEMTIzNA=='
+2025-06-03 03:59:31,021 [14] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - Lowercase Hex Hash: 'b7b0e07a35d00ff2d2cda134914fa5c1895f97c8eeec7fa264944db637cbeeef'
+2025-06-03 03:59:31,023 [14] INFO TransactionAPI.Controllers.TransactionController - IsValidSignature - Calculated Signature (Base64 of Hex Hash): YjdiMGUwN2EzNWQwMGZmMmQyY2RhMTM0OTE0ZmE1YzE4OTVmOTdjOGVlZWM3ZmEyNjQ5NDRkYjYzN2NiZWVlZg== | Received Sig: MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== 
+2025-06-03 03:59:31,033 [14] WARN TransactionAPI.Controllers.TransactionController - IsValidSignature - Signature MISMATCH.
+2025-06-03 03:59:31,035 [14] WARN TransactionAPI.Controllers.TransactionController - Validation Failed: Signature validation failed for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'. Received Sig: 'MWE1ODY0ODg2ZjVmNjg2MjdlNWYxZGY5MDljYTM2ZGJjODdjY2MxODcwOGE2YWFjMDc2ZTExNGNmZDQ4ZDcyYg== '
+2025-06-03 03:59:31,039 [14] WARN TransactionAPI.Controllers.TransactionController - Validation pipeline failed. Returning error response: {"Result":0,"ResultMessage":"Access Denied!"}
+2025-06-03 03:59:50,650 [16] DEBUG TransactionAPI.Controllers.TransactionController - TransactionController constructor was CALLED.
+2025-06-03 03:59:50,655 [16] INFO TransactionAPI.Controllers.TransactionController - Received request for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'.
+2025-06-03 03:59:50,656 [16] INFO TransactionAPI.Controllers.TransactionController - Sanitized Request Body (with encrypted password): {"PartnerKey":"FAKEGOOGLE","PartnerRefNo":"FG-00001","PartnerPassword":"CfDJ8GTjvSsPc2pCtWam-gJOEs-8m6UPpFi2BQ6svXDUgM0rPMV3Q4QvdH7QnQ6sOYsiBpiaQ4Cw-76zI3Ie_cKo0OYzi_YZlCQn5xKwc9JLM-JDHMOt_ovIf0P5OUuhNBeP40MQsASZMR3GUQiBOEyVJ14","TotalAmount":120500,"Items":[{"PartnerItemRef":"ITEM_A001","Name":"Product Alpha","Qty":1,"UnitPrice":120500}],"Timestamp":"2025-06-02T19:59:02.0704515Z"}
+2025-06-03 03:59:50,657 [16] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature called for PartnerKey: 'FAKEGOOGLE', PartnerRefNo: 'FG-00001'
+2025-06-03 03:59:50,658 [16] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - String to Sign: '20250602195902FAKEGOOGLEFG-00001120500RkFLRVBBU1NXT1JEMTIzNA=='
+2025-06-03 03:59:50,659 [16] DEBUG TransactionAPI.Controllers.TransactionController - IsValidSignature - Lowercase Hex Hash: 'b7b0e07a35d00ff2d2cda134914fa5c1895f97c8eeec7fa264944db637cbeeef'
+2025-06-03 03:59:50,660 [16] INFO TransactionAPI.Controllers.TransactionController - IsValidSignature - Calculated Signature (Base64 of Hex Hash): YjdiMGUwN2EzNWQwMGZmMmQyY2RhMTM0OTE0ZmE1YzE4OTVmOTdjOGVlZWM3ZmEyNjQ5NDRkYjYzN2NiZWVlZg== | Received Sig: YjdiMGUwN2EzNWQwMGZmMmQyY2RhMTM0OTE0ZmE1YzE4OTVmOTdjOGVlZWM3ZmEyNjQ5NDRkYjYzN2NiZWVlZg==
+2025-06-03 03:59:50,666 [16] INFO TransactionAPI.Controllers.TransactionController - All validations passed. Calculating discounts.
+2025-06-03 03:59:50,671 [16] DEBUG TransactionAPI.Controllers.TransactionController - Calculating discount for TotalAmountInCents: 120500
+2025-06-03 03:59:50,685 [16] DEBUG TransactionAPI.Controllers.TransactionController - Discount calculation: BaseDisc%=0.15, CondDisc%=0.1, AppliedDisc%=0.2, TotalDiscCents=24100, FinalAmountCents=96400
+2025-06-03 03:59:50,690 [16] INFO TransactionAPI.Controllers.TransactionController - Processing successful. Response: {"Result":1,"TotalAmount":120500,"TotalDiscount":24100,"FinalAmount":96400}
